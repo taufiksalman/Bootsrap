@@ -1,0 +1,189 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@font-face
+{
+    font-family: "smooth";
+    src: url(../Font/blacklist/Smooth\ Dahlia.ttf);
+}
+
+body
+{
+    background-color: aquamarine;
+}
+
+.badan
+{
+    background-color: white;
+    width: 1080px;
+    margin: 50px auto;
+    /* Margin: 50px auto; angka pertama untuk atas-bawah,
+    kedua untuk kanan-kiri
+       Magin: 50px 10px 30px 20px; atas kanan bawah kiri
+    padding juga sama */
+    padding: 10px;
+    
+}
+
+header
+{
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+}
+
+header h3 
+{
+font-size: 36px;
+padding-right: 0;
+font-family:Arial, Helvetica, sans-serif;
+margin: 5px;text-align: center;
+
+}
+
+ul
+{
+    
+}
+
+li
+{
+    text-align: center;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+
+.banner
+{
+    border: 5px solid indigo;
+}
+
+.banner img
+{
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+
+.baris
+{
+    border: 1px solid rgb(0, 0, 0);
+    overflow: scroll;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+.kolom-kiri, .kolom-tengah, .kolom-kanan
+{
+    float: left;
+    border: 0px solid gainsboro;
+    padding: 10px;
+    height: 200px;
+    width: 330px;
+    margin: auto;
+}
+
+.kolom-kiri
+{
+    
+    margin-right: 10px;
+}
+
+.kolom-tengah
+{
+    
+    margin-right: 10px;
+}
+
+.kolom-kanan
+{
+   margin-right: 0;
+}
+
+p
+{
+    margin-top: 10px;
+}
+
+.menu-titel
+{
+    color: crimson;
+    background-color: lightblue;
+    border: 5px black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+footer
+{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+/*
+   SETTING BUAT TABLET
+   Lebar perangkatnya dibawah 1080px
+*/
+@media screen and (max-width:1080px)
+{
+    .badan
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .kolom-kiri
+    {
+        width: 25%;
+    }
+
+    .kolom-tengah
+    {
+        width: 73%;
+        margin: 0;
+        float: right;
+        margin-bottom: 12px;
+    }
+
+    .kolom-kanan
+    {
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+}
+
+
+/*
+    SETTIG BUAT SMARTPHONE
+    Lebar perangkatnya di bawah 750px
+*/
+@media screen and (max-width:750px)
+{
+    .kolom-kiri, .kolom-tengah, .kolom-kanan
+    {
+        margin: 0;
+        margin-top: 10px;
+        width: 100%;
+        float: none;
+    }
+
+    .banner img
+    {
+        height: 200px;
+    }
+}
+
+/* github.com/dannyjub/kita_travel */

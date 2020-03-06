@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face
+{
+    font-family: smooth;
+    src: url(Font/blacklist/Smooth\ Dahlia.ttf);
+}
+body
+{
+    background-color: aqua;
+}
+
+
+.bagian-1
+{
+   background-color: rgb(255, 255, 255);
+    width: 1080px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+header
+{
+background-color: chocolate;
+padding: 10px;
+color: rgb(255, 249, 249);
+}
+
+header h2
+{
+    font-size: 36px;
+    text-align: center;
+    font-family: "smooth";
+}
+
+.badan-2
+{
+    border: 5px solid greenyellow;
+}
+
+.badan-2 img
+{
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+p
+{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img
+{
+    width: 100px;
+}
+
+.gambar
+{
+    display: inline-block;
+}
